@@ -1,0 +1,20 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  @import '../mobile';
+
+  & {
+    .nav .phone {
+      left: 50%;
+    }
+    .section_2-img {
+      margin-top: 0;
+    }
+    .consultation-item {
+      text-align: left;
+    }
+    .consultation-item .img {
+      margin-left: 0;
+    }
+  }
+}

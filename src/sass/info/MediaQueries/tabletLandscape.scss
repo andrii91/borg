@@ -1,0 +1,51 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+  @import '../desktop';
+
+  & {
+    .container {
+      max-width: 100%;
+    }
+
+    .servises-item {
+      br {
+        display: none;
+      }
+    }
+
+    .footer {
+      text-align: left;
+
+      .text-right {
+        text-align: right;
+      }
+
+      .logo {
+        margin-right: 38px;
+        margin-top: 6px;
+        display: inline-block;
+      }
+
+      .phone {
+        display: inline-block;
+      }
+
+      .callme-btn {
+        margin-left: 30px;
+      }
+    }
+    .footer_bottom {
+      text-align: left;
+    }
+    .footer-list li {
+      margin-bottom: 0;
+    }
+  }
+  .text-right {
+    text-align: right;
+  }
+   .nav .text-right {
+  text-align: center;
+  }
+}
