@@ -25,6 +25,7 @@
         margin-right: 38px;
         margin-top: 6px;
         display: inline-block;
+        margin-bottom: 0;
       }
 
       .phone {
@@ -47,5 +48,8 @@
   }
    .nav .text-right {
   text-align: center;
+  }
+  .social {
+    margin-bottom: 0;
   }
 }
